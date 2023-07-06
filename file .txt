@@ -1,0 +1,24 @@
+
+
+Nome nome tabella: automobili usate
+
+id
+targa
+colore_carrozzeria
+casa_produttice
+anno_produzione
+interni
+dotazioni
+sicurezza
+alimentazione
+motore
+sterzo
+dimensione
+peso
+trasmissione
+consumi
+emissioni
+freni
+sospensioni
+prezzo
+
