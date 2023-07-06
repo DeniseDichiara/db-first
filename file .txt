@@ -2,24 +2,26 @@
 
 Nome nome tabella: automobili usate
 
-id                                  intero
-targa                               stirnga
-colore_carrozzeria                  stringa
-casa_produttice                     stringa
-anno_produzione                     data
-interni                             stringa
-dotazioni                           stringa
-sicurezza                           stringa
-alimentazione                       stringa
-motore                              stringa
-sterzo                              stringa
-dimensione                          stringa
-peso                                stringa
-trasmissione                        stringa
-consumi                             stringa
-emissioni                           stringa
-freni                               stringa
-sospensioni                         stringa
-cerchi                              stringa
-prezzo                              float
+nome colonna                        DATO DA INSERIRE                TIPO DI DATO
+
+id                                  intero                          MEDIUMINT
+targa                               stirnga                         VARCHAR(10)
+colore_carrozzeria                  stringa                         TEXT
+casa_produttice                     stringa                         TEXT
+anno_produzione                     data                            YEAR
+interni                             stringa                         TEXT
+dotazioni                           stringa                         TEXT
+sicurezza                           stringa                         TEXT
+alimentazione                       stringa                         TEXT
+motore                              stringa                         VARCHAR(50)
+sterzo                              stringa                         VARCHAR(10)
+dimensione                          stringa                         VARCHAR(50)
+peso                                stringa                         VARCHAR(50)
+trasmissione                        stringa                         VARCHAR(20)
+consumi                             stringa                         VARCHAR(20)
+emissioni                           stringa                         VARCHAR(30)
+freni                               stringa                         VARCHAR(30)
+sospensioni                         stringa                         VARCHAR(100)
+cerchi                              stringa                         VARCHAR(50)
+prezzo                              float                           FLOAT (6, 2)
 
