@@ -2,26 +2,26 @@
 
 Nome nome tabella: automobili usate
 
-nome colonna                        DATO DA INSERIRE                TIPO DI DATO
+nome colonna                        DATO DA INSERIRE                TIPO DI DATO                   ATTRIBUTI
 
-id                                  intero                          MEDIUMINT
-targa                               stirnga                         VARCHAR(10)
-colore_carrozzeria                  stringa                         TEXT
-casa_produttice                     stringa                         TEXT
-anno_produzione                     data                            YEAR
-interni                             stringa                         TEXT
-dotazioni                           stringa                         TEXT
-sicurezza                           stringa                         TEXT
-alimentazione                       stringa                         TEXT
-motore                              stringa                         VARCHAR(50)
-sterzo                              stringa                         VARCHAR(10)
-dimensione                          stringa                         VARCHAR(50)
-peso                                stringa                         VARCHAR(50)
-trasmissione                        stringa                         VARCHAR(20)
-consumi                             stringa                         VARCHAR(20)
-emissioni                           stringa                         VARCHAR(30)
-freni                               stringa                         VARCHAR(30)
-sospensioni                         stringa                         VARCHAR(100)
-cerchi                              stringa                         VARCHAR(50)
-prezzo                              float                           FLOAT (6, 2)
+id                                  intero                          MEDIUMINT                      UNSIGNED PRIMARY_KEY AUTOINCREMENT
+targa                               stirnga                         VARCHAR(10)                    NOT NULL UNIQUE 
+colore_carrozzeria                  stringa                         TEXT                           NOT NULL
+casa_produttice                     stringa                         TEXT                           NULL
+anno_produzione                     data                            YEAR                           NOT NULL
+interni                             stringa                         TEXT                           NOT NUL
+dotazioni                           stringa                         TEXT                           NOT NULL 
+sicurezza                           stringa                         TEXT                           NOT NULL
+alimentazione                       stringa                         TEXT                           NOT NULL
+motore                              stringa                         VARCHAR(50)                    NOT NULL
+sterzo                              stringa                         VARCHAR(10)                    NOT NULL
+dimensione                          stringa                         VARCHAR(50)                    NOT NULL
+peso                                stringa                         VARCHAR(50)                    NOT NULL
+trasmissione                        stringa                         VARCHAR(20)                    NULL
+consumi                             stringa                         VARCHAR(20)                    NOT NULL
+emissioni                           stringa                         VARCHAR(30)                    NOT NULL
+freni                               stringa                         VARCHAR(30)                    NOT NULL
+sospensioni                         stringa                         VARCHAR(100)                   NULL
+cerchi                              stringa                         VARCHAR(50)                    NULL
+prezzo                              float                           FLOAT (6, 2)                   NOT NULL
 
