@@ -2,23 +2,24 @@
 
 Nome nome tabella: automobili usate
 
-id
-targa
-colore_carrozzeria
-casa_produttice
-anno_produzione
-interni
-dotazioni
-sicurezza
-alimentazione
-motore
-sterzo
-dimensione
-peso
-trasmissione
-consumi
-emissioni
-freni
-sospensioni
-prezzo
+id                                  intero
+targa                               stirnga
+colore_carrozzeria                  stringa
+casa_produttice                     stringa
+anno_produzione                     data
+interni                             stringa
+dotazioni                           stringa
+sicurezza                           stringa
+alimentazione                       stringa
+motore                              stringa
+sterzo                              stringa
+dimensione                          stringa
+peso                                stringa
+trasmissione                        stringa
+consumi                             stringa
+emissioni                           stringa
+freni                               stringa
+sospensioni                         stringa
+cerchi                              stringa
+prezzo                              float
 
